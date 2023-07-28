@@ -1,7 +1,5 @@
 # Campus-Connect
 
-# Campus-Connect
-
 The project objective is to connect students in an Engineering College by creating a platform that allows them to interact with each other, share knowledge, and collaborate on projects. The platform will be designed to encourage students to form communities based on their interests, skills, and career goals. The main objective of the platform is to provide students with a supportive and inclusive environment where they can network, learn from each other, and explore new ideas. The platform will feature various tools such as discussion forums, project management tools, and resource sharing, to enable students to work together seamlessly. Ultimately, the platform aims to foster a sense of belonging and camaraderie among students and contribute to their personal and professional growth.
 
 - Advantages
