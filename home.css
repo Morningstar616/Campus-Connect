@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Outfit, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f2f2f2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.image-logo {
+  width: 250px; /* Set the desired width */
+  height: 100%; /* Set the desired height */
+}
+
+.image-container {
+  background-color: #f2f2f2; /* Set the background color */
+  padding: 20px; /* Set padding to create spacing around the image */
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar a:hover {
+  background-color: #ddd;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.post h1 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.post p {
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.user-topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0px;
+}
+
+.user-info {
+  margin: 0;
+}
+
+.topic-info {
+  margin: 0;
+}
+
+.interest-info {
+  margin: 0;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column; /* Adjust flex-direction to column */
+  align-items: flex-start; /* Adjust align-items to flex-start */
+}
+
+.like-count {
+  font-weight: bold;
+  margin-bottom: 20px; /* Add some margin to separate like count and like button */
+}
+
+.like-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

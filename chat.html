@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Box</title>
+  <link rel="stylesheet" href="chat.css">
+  <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="image-container">
+      <img class="image.logo" src="../Images/logo1.png" alt="Logo">
+    </div>
+    <a href="#home">Home</a>
+    <a href="#people">People</a>
+    <a href="#post">Post</a>
+    <a href="#chats">Chats</a>
+    <a href="#search">Search</a>
+    <a href="#notifications">Notifications</a>
+    <a href="#profile">Profile</a>
+  </div>
+
+  <div class="content">
+    <!-- Chat Box Section -->
+    <div class="chat-box">
+      <!-- Friend's Name and Profile Picture -->
+      <div class="friend-profile">
+        <img src="../Images/friend1.jfif" alt="Friend 1">
+        <h3>Mark James</h3>
+      </div>
+      <!-- Chat Messages -->
+      <div class="chat-messages" id="chat-messages">
+        <div class="message user">
+          <p>Hello! How are you doing?</p>
+        </div>
+        <div class="message friend">
+          <p>Hey! I'm good. How about you?</p>
+        </div>
+        <!-- Add more messages as needed -->
+      </div>
+      <!-- Message Input Form -->
+      <form action="/send_message" method="post" class="message-input">
+        <input type="text" name="message" placeholder="Type your message here">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
