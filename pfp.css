@@ -33,12 +33,12 @@ h1 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #000000;
   transition: border-color 0.3s ease;
 }
 
 .profile-picture img:hover {
-  border-color: #0056b3;
+  border-color: #fdf274;
 }
 
 #file-status {
@@ -55,7 +55,7 @@ button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #000000;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #deff83;
 }
 
 a {

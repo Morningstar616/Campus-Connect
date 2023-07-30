@@ -1,14 +1,12 @@
-/* Reset default margin and padding */
 body {
   margin: 0;
   padding: 0;
   font-family: Outfit, sans-serif;
 }
 
-/* Sidebar styles */
 .sidebar {
   width: 250px;
-  background-color: #f2f2f2;
+  background-color: #fdf274;
   position: fixed;
   top: 0;
   left: 0;
@@ -18,24 +16,98 @@ body {
 }
 
 .image-logo {
-  width: 250px; /* Set the desired width */
-  height: 100%; /* Set the desired height */
+  width: 150px; /* Set the desired width */
+  height: 50%; /* Set the desired height */
 }
 
+
 .image-container {
-  background-color: #f2f2f2; /* Set the background color */
-  padding: 20px; /* Set padding to create spacing around the image */
+  background-color: #fdf274;
+  padding: 20px;
 }
 
 .sidebar a {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 12px;
   text-decoration: none;
   color: #000;
 }
 
+.sidebar a i {
+  margin-right: 10px;
+}
+
 .sidebar a:hover {
   background-color: #ddd;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.logo-and-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+}
+
+.logo-and-profile h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.logo-and-profile .user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.logo-and-profile h3 {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.logo-and-profile .profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #344031;
+  color: #ffeba7;
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.logo-and-profile .home-icon {
+  font-size: 24px;
+  margin-left: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.logo-and-profile .home-icon:hover {
+  color: #ffeba7; /* Change the color on hover if desired */
+}
+
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 /* Content styles */
@@ -63,6 +135,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .friends-list {
