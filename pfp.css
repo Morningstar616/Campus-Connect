@@ -1,6 +1,6 @@
 body {
   font-family: Outfit, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #fdf274;
   margin: 0;
   padding: 0;
 }
@@ -65,17 +65,17 @@ button {
 }
 
 button:hover {
-  background-color: #deff83;
+  background-color: #191c0e;
 }
 
 a {
   display: block;
   text-align: center;
-  color: #007bff;
+  color: #000000;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #000000;
 }
