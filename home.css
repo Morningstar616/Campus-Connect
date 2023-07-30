@@ -52,6 +52,19 @@ body {
   margin-bottom: 50px;
 }
 
+.post-info-container {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post-info-container h1 {
+  color: #333;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
 .post h1 {
   color: #333;
   margin-bottom: 5px;
@@ -80,6 +93,13 @@ body {
 
 .interest-info {
   margin: 0;
+}
+
+.interest-frame {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
 }
 
 .post-info {
