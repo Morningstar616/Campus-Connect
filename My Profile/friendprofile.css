@@ -7,7 +7,7 @@ body {
 
 .sidebar {
   width: 250px;
-  background-color: #fdf274;
+  background-color: #6f8b6c;
   position: fixed;
   top: 0;
   left: 0;
@@ -140,6 +140,13 @@ width: 148px;
 margin-bottom: 0px;
 margin-top: 20px;
 border-radius: 50%;
+}
+
+.post-info-container {
+  background-color: #bed3c5;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .name1{
