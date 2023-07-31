@@ -133,17 +133,13 @@ margin-right: 20px; ;
 
 }
 .profile{
-
-
 margin-top: 10px;
 margin-left: 294px;
 height: 130px;
 width: 148px;
-margin-bottom: 10px;
-margin-top: 10px;
+margin-bottom: 0px;
+margin-top: 20px;
 border-radius: 50%;
-
-
 }
 
 .name1{
@@ -172,9 +168,9 @@ padding: 20px;
 width:333px;
 }
 .profile-details  {
-font-size: 12px;
+font-size: 15px;
 margin-left: 450px;
-margin-top: -101px;
+margin-top: -130px;
 }
 .Int{
 margin-left: 294px;
@@ -203,21 +199,16 @@ padding: 10px;
 }
 .Edit{
   margin-top: -6px;
-     
-    margin-left: 293px;
-    color: #1733b1;
-    font-size: 15px;
+  margin-left: 293px;
+  color: #1733b1;
+  font-size: 15px;
 }
 .Delete1{
   
-     margin-top: 20px;
-     margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 760px;
-
   font-size: 15px;
-
-}
-.edit{
 
 }
 
