@@ -12,6 +12,6 @@ The project objective is to connect students in an Engineering College by creati
 
 Front end: HTML, CSS, Java script
 
-Back end: Python/Node.js
+Back end: Node.js
 
 Database: MySQL
